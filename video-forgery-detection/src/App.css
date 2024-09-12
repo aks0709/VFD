@@ -1,0 +1,120 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  width: 40px; /* Adjust size as needed */
+  margin-right: 20px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Home container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: black;
+  padding: 60px 20px 20px;
+  text-align: center;
+}
+
+.project-title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #007bff; /* Blue button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Upload page */
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin: 10px;
+  text-align: left;
+}
+
+.footer-section h3 {
+  margin-top: 0;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
